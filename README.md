@@ -1,2 +1,2 @@
-# my-blog
-My blog is building on Gastby js
+# My blog
+My personal blog is building on Gatsby js
