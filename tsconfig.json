@@ -12,6 +12,10 @@
     "noEmit": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    // "types": ["node"]
-  }
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/@types/*", "@types/*"]
+    }
+  },
+  "exclude": ["**/*.spec.ts", "**/*.test.ts", "dist"]
 }
